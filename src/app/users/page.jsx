@@ -7,7 +7,7 @@ export default async function UserPage() {
 	const users = await usersData;
 
 	return (
-		<main className='flex min-h-screen flex-col justify-start items-center gap-12 p-2 pt-24 sm:p-24 w-full'>
+		<main className='flex min-h-screen flex-col items-center justify-between gap-12 p-2 pt-24 sm:p-24 '>
 			<span className='my-4 self-start sm:ml-28'>
 				<BackButton />
 			</span>

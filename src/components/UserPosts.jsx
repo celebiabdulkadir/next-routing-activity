@@ -2,7 +2,7 @@ import BackButton from '@/components/BackButton';
 
 export default function UserPosts({ user, posts }) {
 	return (
-		<main className='flex min-h-screen flex-col items-center justify-between p-2 pt-24 sm:p-24'>
+		<div className='flex min-h-screen flex-col items-center justify-between p-2 pt-24 sm:p-24'>
 			<span className='self-start my-4'>
 				<BackButton />
 			</span>
@@ -23,6 +23,6 @@ export default function UserPosts({ user, posts }) {
 					</div>
 				))}
 			</div>
-		</main>
+		</div>
 	);
 }
