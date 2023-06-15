@@ -32,7 +32,14 @@ export default function Navbar() {
 			className='flex items-center justify-between flex-wrap bg-indigo-500 p-6 fixed top-0  w-full z-10 left-0 '
 		>
 			<div className='flex items-center flex-shrink-0 text-white mr-6'>
-				<span className='font-semibold text-xl tracking-tight'>Next.js</span>
+				<span className='font-semibold text-xl tracking-tight'>
+					<Link
+						className='block mt-4 lg:inline-block lg:mt-0 text-indigo-200 hover:text-white mr-4'
+						href='/'
+					>
+						User Platform
+					</Link>
+				</span>
 			</div>
 			<div className='block lg:hidden'>
 				<button

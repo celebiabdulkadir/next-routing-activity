@@ -1,5 +1,6 @@
 import getAllUsers from '../../lib/getAllUsers';
 import Link from 'next/link';
+import BackButton from '@/components/BackButton';
 
 export default async function UserPage() {
 	const usersData = getAllUsers();
@@ -7,6 +8,9 @@ export default async function UserPage() {
 
 	return (
 		<main className='flex min-h-screen flex-col justify-start gap-12 p-24 w-full'>
+			<span>
+				<BackButton />
+			</span>
 			<h1 className='text-center text-3xl '>USERS</h1>
 			<div className='flex flex-wrap gap-4'>
 				{users?.map((user, index) => (

@@ -1,6 +1,12 @@
+import BackButton from '@/components/BackButton';
+
 export default function UserPosts({ user, posts }) {
 	return (
 		<main className='flex min-h-screen flex-col items-center justify-between p-24'>
+			<span className='self-start'>
+				<BackButton />
+			</span>
+
 			<h1 className='text-3xl mb-4  '>
 				{' '}
 				{user.name} {user.surname}
