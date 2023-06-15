@@ -8,7 +8,7 @@ export default async function UserPage() {
 
 	return (
 		<main className='flex min-h-screen flex-col items-center justify-between gap-12 p-2 pt-24 sm:p-24 '>
-			<span className='my-4 self-start sm:ml-28'>
+			<span className='my-4 self-start '>
 				<BackButton />
 			</span>
 			<h1 className='text-center text-3xl '>USERS</h1>
