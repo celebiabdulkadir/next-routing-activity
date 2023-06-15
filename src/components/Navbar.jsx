@@ -65,12 +65,14 @@ export default function Navbar() {
 				<div className='text-sm lg:flex-grow'></div>
 				<div>
 					<Link
+						onClick={() => setIsOpen(!isOpen)}
 						className='block mt-4 lg:inline-block lg:mt-0 text-indigo-200 hover:text-white mr-4'
 						href='/'
 					>
 						Home
 					</Link>
 					<Link
+						onClick={() => setIsOpen(!isOpen)}
 						className='block mt-4 lg:inline-block lg:mt-0 text-indigo-200 hover:text-white mr-4'
 						href='/users'
 					>
