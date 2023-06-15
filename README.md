@@ -11,6 +11,10 @@ yarn dev
 # or
 pnpm dev
 ```
+## Live
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a1ce57b1-b33a-4651-969d-ff0b9af8c7f7/deploy-status)](https://next-routing-recoded.netlify.app/)
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
